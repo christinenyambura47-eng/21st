@@ -3,9 +3,7 @@
   "outputDirectory": "twentyfirst-connect/dist",
   "framework": "vite",
   "env": {
-    "VITE_API_BASE_URL": {
-      "description": "Backend API URL - e.g., https://api.example.com/api"
-    }
+    "VITE_API_BASE_URL": "https://two1st-electronics.onrender.com/api"
   },
   "rewrites": [
     {
