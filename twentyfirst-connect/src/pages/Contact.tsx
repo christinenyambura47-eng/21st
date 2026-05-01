@@ -27,10 +27,10 @@ const Contact = () => {
         <div className="container mx-auto px-4 sm:px-6 relative z-10 mb-12">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-2xl">
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-heading font-bold text-primary-foreground mb-4">
-              Get In Touch
+              Premium Support, Always Here
             </h1>
             <p className="text-primary-foreground/80 text-base sm:text-lg">
-              Questions? Need support? We're here to help — reach us through any channel below.
+              Have questions about our plans? Need technical support? Our dedicated team is available 24/7 to help you experience premium internet like never before.
             </p>
           </motion.div>
         </div>

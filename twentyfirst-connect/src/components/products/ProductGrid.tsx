@@ -8,35 +8,35 @@ import powerBackup from "@/assets/power-backup.png";
 
 const products = [
   {
-    name: "Home WiFi Router",
+    name: "Premium WiFi Router",
     image: routerDevice,
     price: "3,500",
-    desc: "Dual-band wireless router with 300 Mbps throughput. Covers up to 3 bedrooms with strong, stable WiFi.",
-    specs: ["2.4 GHz & 5 GHz", "4 LAN ports", "Easy web setup", "WPA3 security"],
+    desc: "Enterprise-grade dual-band wireless router delivering 300 Mbps throughput. Provides comprehensive WiFi coverage across your entire home with seamless connectivity.",
+    specs: ["Dual-band (2.4 & 5 GHz)", "300 Mbps throughput", "4 Gigabit LAN ports", "WPA3 security"],
     tag: "Included with plans",
   },
   {
-    name: "Outdoor CPE Antenna",
+    name: "High-Performance Outdoor Antenna",
     image: outdoorCpe,
     price: "4,500",
-    desc: "Long-range outdoor receiver that connects your home to our network towers. Weather-resistant and durable.",
-    specs: ["Up to 15 km range", "IP65 weatherproof", "PoE powered", "High-gain directional"],
+    desc: "Professional-grade outdoor CPE antenna that captures our signal from network towers. Engineered for reliability with weatherproof construction and extended range.",
+    specs: ["15 km+ range", "IP65 weatherproof", "PoE powered", "High-gain directional"],
     tag: "Included with installation",
   },
   {
-    name: "Cat6 Ethernet Cable",
+    name: "Premium Cat6 Ethernet Cable",
     image: ethernetCable,
     price: "500",
-    desc: "Premium shielded Cat6 cable for wired connections. Get the fastest, most stable speeds to your PC or console.",
-    specs: ["10 Gbps support", "15m length", "RJ45 connectors", "Shielded (STP)"],
+    desc: "Fully shielded Cat6 cable for maximum wired connection stability. Perfect for devices requiring ultra-fast, interference-free connectivity.",
+    specs: ["10 Gbps capacity", "15m premium cable", "Gold-plated RJ45", "STP shielding"],
     tag: null,
   },
   {
-    name: "Mini UPS Backup",
+    name: "Intelligent UPS Backup",
     image: powerBackup,
     price: "5,500",
-    desc: "Keep your internet running during power outages. Provides up to 4 hours of backup for your router and CPE.",
-    specs: ["12V DC output", "4-hour backup", "LED indicators", "Surge protection"],
+    desc: "Keep your internet active during power outages with intelligent backup power. Seamless failover ensures uninterrupted connectivity when you need it most.",
+    specs: ["4-hour backup time", "12V DC output", "LED monitoring", "Surge protection"],
     tag: "Best Seller",
   },
 ];
@@ -52,10 +52,10 @@ const ProductGrid = () => {
           className="text-center mb-12 sm:mb-16"
         >
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold text-foreground mb-4">
-            Networking Equipment
+            Premium Networking Equipment
           </h2>
-          <p className="text-muted-foreground text-base sm:text-lg max-w-xl mx-auto">
-            Quality hardware included with your plan or available for purchase separately.
+          <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
+            Professional-grade hardware optimized for peak performance. All equipment is included with your plan or available for upgrade.
           </p>
         </motion.div>
 

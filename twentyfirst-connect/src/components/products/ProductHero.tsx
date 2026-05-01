@@ -15,11 +15,11 @@ const ProductHero = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-heading font-bold text-primary-foreground leading-tight mb-4">
-              Our Products &{" "}
-              <span className="text-accent">Equipment</span>
+              Premium Equipment{" "}
+              <span className="text-accent">for Excellence</span>
             </h1>
             <p className="text-base sm:text-lg text-primary-foreground/80 max-w-lg">
-              Everything you need for a fast, reliable home internet connection — from routers to outdoor antennas and accessories.
+              Professional-grade networking equipment engineered for peak performance. Every device is optimized to deliver the ultra-fast, reliable connectivity your home deserves.
             </p>
           </motion.div>
           <motion.div

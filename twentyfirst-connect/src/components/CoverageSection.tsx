@@ -16,23 +16,30 @@ const CoverageSection = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold text-foreground mb-6">
-              Are We In{" "}
-              <span className="text-gradient-hero">Your Area?</span>
+              Premium Internet{" "}
+              <span className="text-gradient-hero">Where You Are</span>
             </h2>
             <p className="text-muted-foreground text-base sm:text-lg mb-6 leading-relaxed">
-              We're live in 6 cities and expanding fast. Check below to see if your neighbourhood is covered — and if not, register your interest so we prioritise your area.
+              Our premium fiber network spans major cities across Kenya with expanding coverage. We serve Nairobi, Mombasa, Kisumu, Nakuru, Eldoret, Thika, and Homebay — and we're growing every month. Check if your location qualifies for our premium service.
             </p>
             <div className="flex flex-wrap gap-2 sm:gap-3 mb-8" role="list" aria-label="Covered cities">
               {cities.map((city) => (
                 <span
                   key={city}
                   role="listitem"
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-muted text-sm font-medium text-foreground"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-sm font-semibold text-primary hover:bg-primary/20 transition-colors"
                 >
-                  <MapPin className="w-3.5 h-3.5 text-primary" aria-hidden="true" />
+                  <MapPin className="w-3.5 h-3.5 flex-shrink-0" aria-hidden="true" />
                   {city}
                 </span>
               ))}
+              <span
+                role="listitem"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-sm font-semibold text-accent"
+              >
+                <MapPin className="w-3.5 h-3.5 flex-shrink-0" aria-hidden="true" />
+                Homebay
+              </span>
             </div>
             <Button size="lg" className="gap-2 min-h-[48px]">
               Check Coverage <ArrowRight className="w-4 h-4" aria-hidden="true" />

@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import TopHeader from "@/components/TopHeader";
 import WhatsAppBubble from "@/components/WhatsAppBubble";
 import Index from "./pages/Index.tsx";
 import Plans from "./pages/Plans.tsx";
@@ -25,7 +24,6 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <TopHeader />
         <ScrollToTop />
         <WhatsAppBubble />
         <Routes>

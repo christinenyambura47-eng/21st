@@ -17,7 +17,7 @@ const plans = [
     price: "1,100",
     period: "/month",
     speed: "4 Mbps",
-    features: ["Reliable Internet", "Priority support", "Perfect for browsing", "Email support"],
+    features: ["Unlimited Data", "4 Mbps Speed", "Priority Email Support", "48-Hour Installation"],
     popular: false,
     cta: "Choose Lite",
   },
@@ -26,7 +26,7 @@ const plans = [
     price: "1,500",
     period: "/month",
     speed: "5 Mbps",
-    features: ["Unlimited Internet up to 5 Mbps", "6 Mbps capable", "Email & Call support", "Dedicated technician"],
+    features: ["Unlimited Data", "5 Mbps Speed", "Phone & Email Support", "48-Hour Installation", "One Free Router"],
     popular: true,
     cta: "Choose Standard",
   },
@@ -35,7 +35,7 @@ const plans = [
     price: "2,000",
     period: "/month",
     speed: "12 Mbps",
-    features: ["Unlimited data", "12 Mbps speeds", "24/7 VIP support", "Low Latency", "Static IP available"],
+    features: ["Unlimited Data", "12 Mbps Speed", "Priority 24/7 Support", "Same-Day Installation", "Static IP Available"],
     popular: false,
     cta: "Choose Executive",
   },
@@ -44,7 +44,7 @@ const plans = [
     price: "8,000",
     period: "/month",
     speed: "90 Mbps",
-    features: ["Unlimited data", "No throttling", "24/7 VIP support", "Low Latency", "Static IP available", "Priority installation"],
+    features: ["Unlimited Data", "Ultra-Fast 90 Mbps", "VIP 24/7 Support", "Dedicated Account Manager", "Free Static IP & Support"],
     popular: false,
     cta: "Choose Premium",
   },
@@ -79,10 +79,10 @@ const Plans = () => {
             className="max-w-3xl"
           >
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-heading font-bold text-primary-foreground mb-4">
-              Simple Plans, Honest Pricing
+              Premium Plans for Every Lifestyle
             </h1>
             <p className="text-primary-foreground/80 text-base sm:text-lg mb-6">
-              Every plan is unlimited with zero hidden fees. Pick what works for you and get connected in 48 hours.
+              Find your perfect internet speed. All plans feature unlimited data, zero throttling, professional installation, and 24/7 dedicated support. No contracts, transparent pricing.
             </p>
             <Button size="lg" variant="secondary" className="gap-2" asChild>
               <Link to="/contact">

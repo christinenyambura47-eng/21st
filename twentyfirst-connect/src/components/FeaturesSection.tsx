@@ -3,12 +3,12 @@ import { Wifi, Shield, Clock, TrendingUp, Users, Headphones } from "lucide-react
 import aboutImage from "@/assets/about3.jpg";
 
 const features = [
-  { icon: Wifi, title: "Truly Unlimited", desc: "Download, stream, and video-call without worrying about data running out." },
-  { icon: TrendingUp, title: "Consistent Speeds", desc: "No peak-hour throttling. Your 5 Mbps or 10 Mbps stays rock-solid." },
-  { icon: Shield, title: "Secure by Default", desc: "Enterprise-grade encryption and firewall protection on every connection." },
-  { icon: Clock, title: "48-Hour Setup", desc: "Sign up today and our technician installs your connection within 2 days." },
-  { icon: Users, title: "Expanding Fast", desc: "Already in 6+ cities and growing — bringing connectivity across Kenya." },
-  { icon: Headphones, title: "Always-On Support", desc: "Our 24/7 team resolves issues fast so you stay connected." },
+  { icon: Wifi, title: "Truly Unlimited", desc: "Experience genuine unlimited data with no caps, no quotas, no surprises. Stream 4K, download large files, and connect multiple devices simultaneously." },
+  { icon: TrendingUp, title: "Consistent Premium Speeds", desc: "Enjoy guaranteed speeds without throttling during peak hours. Your 5 Mbps, 12 Mbps, or 90 Mbps connection remains stable 24/7." },
+  { icon: Shield, title: "Enterprise-Grade Security", desc: "Protect your family with military-grade encryption, advanced firewall protection, and automatic threat detection on every connection." },
+  { icon: Clock, title: "Swift 48-Hour Installation", desc: "Get connected fast. Our certified technicians complete professional installation within 2 days of your order, with zero disruption." },
+  { icon: Users, title: "Nationwide Expansion", desc: "Already serving Nairobi, Mombasa, Kisumu, Nakuru, Eldoret, Thika, and Homebay. Rapidly expanding to bring premium internet to all Kenyans." },
+  { icon: Headphones, title: "24/7 Premium Support", desc: "Dedicated technical support available round-the-clock. Get same-day resolution for any issues, with knowledgeable specialists ready to help." },
 ];
 
 const FeaturesSection = () => {
@@ -22,10 +22,10 @@ const FeaturesSection = () => {
           className="text-center mb-12 sm:mb-16"
         >
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold mb-4">
-            Why Kenyans Choose 21st Electronics
+            The 21st Electronics Advantage
           </h2>
-          <p className="text-navy-foreground/60 text-base sm:text-lg max-w-xl mx-auto">
-            Reliable, affordable internet that actually delivers on its promises.
+          <p className="text-navy-foreground/60 text-base sm:text-lg max-w-2xl mx-auto">
+            We've engineered the perfect balance of power, reliability, and service. Here's what sets us apart from the rest.
           </p>
         </motion.div>
 

@@ -10,28 +10,28 @@ const faqs = [
   {
     category: "Installation",
     questions: [
-      { q: "How long does installation take?", a: "Our technician will visit your home within 48 hours of signup. The installation itself takes about 1–2 hours, including equipment setup and speed testing." },
-      { q: "What equipment do I need?", a: "We provide everything — a wireless router, cabling, and mounting hardware. All you need is a power socket near your preferred router location." },
-      { q: "Is there an installation fee?", a: "Yes, there's a one-time installation fee of KES 2,500 which covers equipment, labour, and activation." },
-      { q: "Can I relocate my connection?", a: "Absolutely. Contact our support team and we'll schedule a relocation within your coverage area for a small fee." },
+      { q: "How long does installation take?", a: "Our certified technician will visit within 48 hours of your order. The professional installation takes 1-2 hours, including fiber/cable optimization, router configuration, speed verification, and a full walkthrough." },
+      { q: "What equipment is included?", a: "We provide everything: premium Wi-Fi router, fiber optic cabling, professional mounting hardware, and all necessary adapters. Equipment is premium-grade designed for reliable long-term performance." },
+      { q: "Is there an installation charge?", a: "Yes, there's a one-time professional installation fee of KES 2,500. This includes certified technician labor, all equipment, activation, and same-day testing to ensure perfect speed delivery." },
+      { q: "Can I relocate or upgrade my connection?", a: "Absolutely. Contact our team anytime to relocate within your coverage area (small fee) or upgrade your speed instantly. We're flexible to your needs." },
     ],
   },
   {
     category: "Billing & Plans",
     questions: [
-      { q: "How do I pay for my plan?", a: "We accept M-Pesa, bank transfer, and card payments. You'll receive a payment reminder before each billing cycle." },
-      { q: "Can I switch plans anytime?", a: "Yes! Upgrades take effect immediately. Downgrades apply at the start of your next billing cycle — no penalties." },
-      { q: "Are there any hidden fees?", a: "None. The price you see is what you pay. No data caps, no throttling surcharges, no surprise charges." },
-      { q: "What happens if I miss a payment?", a: "You'll receive a 3-day grace period with reminders. After that, service is paused until payment is received — no disconnection fees." },
+      { q: "What payment methods do you accept?", a: "We accept M-Pesa, bank transfers, credit/debit cards, and airtel money. You'll receive payment reminders before each cycle for convenience." },
+      { q: "Can I change plans anytime?", a: "Yes! Upgrades are instant. Downgrades take effect on your next billing cycle. There are no penalties, no lock-in contracts — complete flexibility." },
+      { q: "Are there any hidden charges?", a: "Never. Pure transparency: the monthly price you see is all you pay. Zero hidden fees, zero data throttling charges, zero surprise bills. What you see is what you get." },
+      { q: "What if I can't pay on time?", a: "We offer a 3-day grace period with courtesy reminders. Service pauses if unpaid after that, with no disconnection fees. Just pay and you're back online." },
     ],
   },
   {
     category: "Troubleshooting",
     questions: [
-      { q: "My internet is slow. What should I do?", a: "First, restart your router by unplugging it for 30 seconds. If speeds don't improve, contact our 24/7 support team and we'll diagnose remotely." },
-      { q: "My connection keeps dropping.", a: "Check that your router is in an open area away from walls and electronics. If the issue persists, call us — it may be a signal or hardware issue we can fix quickly." },
-      { q: "How do I reset my Wi-Fi password?", a: "Log into your router's admin panel (usually 192.168.1.1) or call our support team and we'll walk you through it." },
-      { q: "Who do I contact for support?", a: "Reach us 24/7 at +254 700 000 000, email info@21stelectronics.co.ke, or use the chat bot on this page." },
+      { q: "Speeds are slower than expected. What should I do?", a: "First, restart your router. Then check for interference from other devices. Still slow? Our 24/7 tech team provides remote diagnostics and solutions within minutes." },
+      { q: "My connection keeps disconnecting.", a: "Ensure your router is in an open, central location away from walls and interference. If it persists, call our support team immediately — we handle repairs fast." },
+      { q: "How do I change my Wi-Fi password?", a: "Access your router admin panel at 192.168.1.1 or call our team anytime. We'll guide you or change it remotely in minutes." },
+      { q: "How do I get 24/7 technical support?", a: "Call +254 720 778 496, email info@21st-electronics.com, use our live chat, or message us on WhatsApp. Expert help is always minutes away." },
     ],
   },
 ];
@@ -47,10 +47,10 @@ const FAQSection = () => {
           className="text-center mb-12 sm:mb-16"
         >
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold mb-4 text-foreground">
-            Frequently Asked Questions
+            Everything You Need to Know
           </h2>
-          <p className="text-muted-foreground text-base sm:text-lg max-w-xl mx-auto">
-            Quick answers to the most common questions about our service.
+          <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
+            Comprehensive answers to help you get the most from your premium internet service. Can't find what you're looking for? Our 24/7 support team is ready to help.
           </p>
         </motion.div>
 

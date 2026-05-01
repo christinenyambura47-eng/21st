@@ -92,10 +92,10 @@ const ContactSection = ({ selectedPlan }: ContactSectionProps) => {
             viewport={{ once: true }}
           >
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Ready to Get Connected?
+              Experience Premium Support
             </h2>
             <p className="text-muted-foreground text-base sm:text-lg mb-8">
-              Drop us a message or call directly. Our team typically responds within 2 hours during business hours.
+              Our dedicated team is ready to help. Reach out today and discover how 21st Electronics can transform your connectivity. Expect a response within 2 hours.
             </p>
 
             <address className="space-y-6 not-italic">

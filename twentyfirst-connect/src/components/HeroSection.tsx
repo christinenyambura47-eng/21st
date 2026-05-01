@@ -22,7 +22,7 @@ const HeroSection = () => {
             className="inline-flex items-center gap-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 px-4 py-1.5 mb-6"
           >
             <Zap className="w-4 h-4 text-accent" aria-hidden="true" />
-            <span className="text-sm font-medium text-primary-foreground">#BeConnected — Unlimited Internet</span>
+            <span className="text-sm font-medium text-primary-foreground">Unlimited Fiber Broadband for Kenyan Homes</span>
           </motion.div>
 
           <motion.h1
@@ -31,17 +31,17 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-primary-foreground leading-tight mb-6"
           >
-            Unlimited Home Internet.{" "}
-            <span className="text-accent">Zero Surprises.</span>
+            Ultra-Fast Fiber{" "}
+            <span className="text-accent">Internet for Kenya</span>
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-base sm:text-lg md:text-xl text-primary-foreground/80 mb-4 max-w-xl"
+            className="text-base sm:text-lg md:text-xl text-primary-foreground/80 mb-4 max-w-xl leading-relaxed"
           >
-           Stream, work, and browse without limits. 21st Electronics delivers fast, uncapped home internet starting with our standard connection at KES 1,500/month — reliable, affordable, and built for seamless connectivity.
+            Unlimited fiber broadband with speeds from 4 to 90 Mbps. No data caps. No throttling. Zero hidden fees. Professional installation in 48 hours. Available in Nairobi, Mombasa, Kisumu, and 4+ more cities. Start from KES 1,500/month.
           </motion.p>
 
           <motion.ul
@@ -50,7 +50,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.25 }}
             className="flex flex-wrap gap-x-6 gap-y-2 mb-8 text-sm text-primary-foreground/80"
           >
-            {["No data caps", "No contracts", "48hr installation"].map((item) => (
+            {["Unlimited Data", "Zero Throttling", "Fast Installation", "99.9% Uptime"].map((item) => (
               <li key={item} className="flex items-center gap-1.5">
                 <CheckCircle className="w-4 h-4 text-secondary" aria-hidden="true" />
                 {item}

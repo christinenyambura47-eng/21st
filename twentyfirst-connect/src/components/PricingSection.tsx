@@ -6,40 +6,40 @@ import routerDevice from "@/assets/router-device.png";
 
 const plans = [
   {
-    name: "monthly",
-    price: "1500",
-    period: "/monthly",
-    speed: "5 Mbps",
-    features: ["Unlimited Internet upto 6Mbs", "6MBS", "Email|Call support", ""],
-    popular: false,
-    cta: "Standard Connection",
-  },
-  {
-    name: "Monthly",
-    price: "KES1,100",
+    name: "Lite",
+    price: "1,100",
     period: "/month",
     speed: "4 Mbps",
-    features: ["Reliable Internet", "Priority support"],
-    popular: true,
-    cta: "Lite Package",
+    features: ["Unlimited Data", "Reliable Connection", "Priority Email Support", "Standard Installation"],
+    popular: false,
+    cta: "Get Lite",
   },
   {
-    name: "Premium",
-    price: "KES 8000",
+    name: "Standard",
+    price: "1,500",
     period: "/month",
-    speed: "90 Mbps",
-    features: ["Unlimited data", "No throttling", "24/7 VIP support", "Low Latency", "Static IP available"],
-    popular: false,
-    cta: "Go Premium",
+    speed: "5 Mbps",
+    features: ["Unlimited Data", "5 Mbps Speed", "Phone & Email Support", "48-Hour Installation", "One Free Upgrade"],
+    popular: true,
+    cta: "Get Standard",
   },
   {
     name: "Executive",
-    price: "KES 2000",
+    price: "2,000",
     period: "/month",
     speed: "12 Mbps",
-    features: ["Unlimited data", "specific locations", "24/7 VIP support", "Low Latency", "Static IP available"],
+    features: ["Unlimited Data", "12 Mbps Speed", "Priority 24/7 Support", "Same-Day Installation", "Static IP Available"],
     popular: false,
-    cta: "Executive",
+    cta: "Get Executive",
+  },
+  {
+    name: "Premium",
+    price: "8,000",
+    period: "/month",
+    speed: "90 Mbps",
+    features: ["Unlimited Data", "Ultra-Fast 90 Mbps", "VIP 24/7 Support", "Dedicated Account Manager", "Free Static IP & Tech Support"],
+    popular: false,
+    cta: "Get Premium",
   },
 ];
 
@@ -54,10 +54,10 @@ const PricingSection = () => {
           className="text-center mb-12 sm:mb-16"
         >
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold text-foreground mb-4">
-            Simple Plans, Honest Pricing
+            Premium Plans for Every Need
           </h2>
-          <p className="text-muted-foreground text-base sm:text-lg max-w-xl mx-auto">
-            Every plan is unlimited with zero hidden fees. Pick what works for you and get connected in 48 hours.
+          <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
+            Transparent pricing with zero hidden fees. All plans include unlimited data, zero throttling, professional installation, and 24/7 support. Choose your speed and get connected in 48 hours.
           </p>
         </motion.div>
 

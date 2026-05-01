@@ -6,20 +6,20 @@ import stepConnected from "@/assets/step-connected.png";
 const steps = [
   {
     number: "01",
-    title: "Sign Up",
-    description: "Pick a plan and fill out a quick form — it takes under 2 minutes.",
+    title: "Select Your Plan",
+    description: "Choose from our range of premium plans tailored to your needs. Complete signup in minutes with transparent pricing and no hidden fees.",
     image: stepSignup,
   },
   {
     number: "02",
-    title: "We Install",
-    description: "Our technician visits your home within 48 hours and sets everything up.",
+    title: "Professional Installation",
+    description: "Our certified technicians complete a thorough installation at your home within 48 hours, optimizing your connection for peak performance.",
     image: stepInstallation,
   },
   {
     number: "03",
-    title: "Get Connected",
-    description: "Enjoy unlimited, fast internet — stream, work, and browse with zero limits.",
+    title: "Experience Excellence",
+    description: "Enjoy premium unlimited internet with 24/7 dedicated support. Stream, work, and connect without limits or interruptions.",
     image: stepConnected,
   },
 ];
@@ -35,13 +35,13 @@ const HowItWorksSection = () => {
           className="text-center mb-12 sm:mb-16"
         >
           <span className="text-primary font-semibold text-sm uppercase tracking-wider">
-            Simple & Fast
+            Seamless Onboarding
           </span>
-          <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mt-2">
-            How It Works
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-foreground mt-2">
+            Get Connected in Three Simple Steps
           </h2>
-          <p className="text-muted-foreground mt-3 max-w-md mx-auto">
-            Three easy steps to unlimited home internet.
+          <p className="text-muted-foreground mt-4 max-w-2xl mx-auto text-lg">
+            From selection to premium internet experience — we make the process smooth and hassle-free.
           </p>
         </motion.div>
 

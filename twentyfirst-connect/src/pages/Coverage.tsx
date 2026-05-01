@@ -83,10 +83,10 @@ const Coverage = () => {
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-2xl">
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-heading font-bold text-primary-foreground mb-4">
-              Coverage Map
+              Premium Coverage Across Kenya
             </h1>
             <p className="text-primary-foreground/80 text-base sm:text-lg">
-              We're live in 7 cities and expanding fast. Check if your area is covered.
+              Check if your location is covered by our expanding fiber network. We serve 7+ cities with plans to reach more communities. Don't see your area? Register for priority notification.
             </p>
           </motion.div>
         </div>
