@@ -1,0 +1,15 @@
+{
+  "name": "21st_electronics",
+  "version": "1.0.0",
+  "description": "21st Electronics monorepo",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "twentyfirst-connect"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=twentyfirst-connect",
+    "build": "npm run build --workspace=twentyfirst-connect",
+    "start": "npm run start --workspace=backend"
+  }
+}
